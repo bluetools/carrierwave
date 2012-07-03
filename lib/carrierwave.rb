@@ -49,6 +49,7 @@ module CarrierWave
     autoload :Processing, 'carrierwave/uploader/processing'
     autoload :Versions, 'carrierwave/uploader/versions'
     autoload :Remove, 'carrierwave/uploader/remove'
+    autoload :ExtensionBlacklist, 'carrierwave/uploader/extension_blacklist'
     autoload :ExtensionWhitelist, 'carrierwave/uploader/extension_whitelist'
     autoload :DefaultUrl, 'carrierwave/uploader/default_url'
     autoload :Proxy, 'carrierwave/uploader/proxy'
