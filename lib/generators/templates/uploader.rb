@@ -48,7 +48,7 @@ class <%= class_name %>Uploader < CarrierWave::Uploader::Base
   
   # Add a black list of extensions which are not allowed to be uploaded.
   # For binaries you might use something like this:
-  # def extension_white_list
+  # def extension_black_list
   #   %w(exe com scr pif)
   # end
 
