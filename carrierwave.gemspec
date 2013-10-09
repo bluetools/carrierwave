@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version = CarrierWave::VERSION
 
   s.authors = ["Jonas Nicklas"]
-  s.date = Date.today
+  s.date = Date.new(2013, 10, 9)
   s.description = "Upload files in your Ruby applications, map them to a range of ORMs, store them on different backends."
   s.summary = "Ruby file upload library"
   s.email = ["jonas.nicklas@gmail.com"]
